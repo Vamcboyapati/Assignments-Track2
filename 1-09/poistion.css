@@ -1,0 +1,29 @@
+img{
+  width:100%;
+  border-radius: 10px;
+}
+.container{
+  width: 285px;
+  height:190px;
+  position: relative;
+  display: inline-block;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+/* .project_grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 30px; */
+
+p{
+  position:absolute;
+  top:0px;
+  margin:0px;
+  left:0px;
+  background-color:rgb(72, 71, 71);
+  color: white;
+  border-radius: 2px;
+  padding: 5px 10px 5px 10px;
+  border-bottom-right-radius: 7px;
+}
