@@ -1,0 +1,257 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: raleway;
+}
+.img-container{
+  display: flex;
+  width: 70%;
+  flex-wrap: wrap;
+  margin-top: 114.67px;
+}
+.imgitem>img{
+  width: 100%;
+  object-fit: cover;
+}
+.parent{
+  display: flex;
+  justify-content: center;
+}
+.imgitem{
+  width: 200px;
+  line-height: 0;
+  flex-grow: 1;
+}
+.header{
+  width: 100%;
+  display: flex;
+  padding: 40px;
+  font-size: 26px;
+  justify-content: space-between;
+  position: fixed;
+  background-color: white;
+}
+.page-turn{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 50px;
+  align-items: center;
+}
+.page-turn>.chervon{
+  padding: 12px;
+  transition: background-color  0.15s,color 0.15s;
+}
+
+.page-turn>.pages{
+  padding: 12px 16px 12px 16px;
+  transition: background-color  0.15s,color 0.15s;
+}
+
+.pages:hover{
+  background-color:black;
+  color: white;
+}
+.chervon:hover{
+  background-color:black;
+  color: white;
+}
+.page-turn .page-1{
+  background-color: black;
+  color: white;
+}
+.about{
+  background-color: #616161;
+  color: white;
+  padding-bottom: 32px !important;
+  padding-top: 32px !important;
+  text-align: center;
+  padding: 0.01em 16px;
+}
+.about img {
+  margin-top: 32px;
+  width: 600px;
+  max-width: 100%;
+}
+.about>.item{
+  text-align: left;
+  max-width: 600px;
+  margin: 20px auto;
+}
+.about p{
+  margin: 20px auto;
+}
+.item>h3{
+  font-weight: normal;
+  margin: 20px auto;
+}
+.tech-skills{
+  background-color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.percentage{
+width: 95%;
+background-color: #9e9e9e;
+padding: 8px;
+text-align: center;
+}
+h4{
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+.download{
+  padding: 10px 15px 10px 15px;
+  font-size: 15px;
+  margin: 15px 0px 15px 0px;
+  transition:background-color 0.15s,color 0.15s ;
+}
+.download:hover{
+  background-color: black;
+  color: white;
+}
+.charges{
+ display: flex;
+ justify-content: center;
+  flex-wrap: wrap;
+  gap:20px;
+}
+.basic,.pro{
+  flex: 1 1 48%;
+  background-color: royalblue;
+  text-align: center;
+}
+.basic>.item-1,.pro>.item-1{
+  background-color: black !important;
+  font-size: 26px !important;
+  padding: 25px !important;
+  color: white !important;
+  border: none !important;
+}
+.charges .item{
+  padding: 15px;
+  font-weight: normal;
+  background-color:#f1f1f1;
+  color: black;
+  border-bottom: 1px solid #ddd;
+}
+.charges .item-7{
+  background-color:whitesmoke !important ;
+}
+h1
+{
+  font-weight: normal;
+}
+.charges .signup{
+  padding: 10px 15px 10px 15px;
+  color: black;
+  background-color: white;
+  border: none !important;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 0;
+}
+.contact-me{
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 32px 0px 32px 0px;
+}
+.contact{
+  max-width: 600px;
+  margin: 0px auto;
+  text-align: left;
+}
+input{
+  width: 100%;
+  margin: 0;
+  padding:10px;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+h2{
+  font-weight: normal;
+  padding: 20px;
+}
+.contact p{
+ margin-bottom:20px;
+}
+.send{
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  color:white;
+  background-color: black;
+
+}
+.send:active{
+  background-color: white;
+  color: black;
+}
+.Blog{
+  background-color: #9e9e9e;
+  display: flex;
+  padding: 20px;
+  max-width: 100%;
+}
+.info{
+  width: 33.33%;
+  padding: 10px;
+}
+.blogspots{
+  width: 33.33%;
+  padding: 10px;
+  float: left;
+}
+.tags{
+  padding: 10px;
+  width: 33.33%;
+  float: left;
+}
+.tags>.tag{
+  background-color: #616161;
+  margin: 2px;
+  color: white;
+  display: inline-block;
+  margin: 5px;
+}
+.blogspots img{
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+.places span{
+  display:block;
+}
+.Blog h1{
+  font-size: 22px;
+  padding: 10px;
+}
+
+.places{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 12px;
+  flex-wrap: wrap;
+}
+.place-1{
+  border-bottom: 1px solid #ccc;
+}
+
+.Blog h3{
+  font-weight: 400;
+}
+.places:hover{
+  background-color: black;
+  color: white;
+}
+.by{
+  background-color: black;
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  padding: 40px;
+}
