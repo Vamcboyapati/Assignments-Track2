@@ -45,9 +45,9 @@ body{
     }
     label{
       display:inline-block;
-      width: 336px;
+      width: 48%;
       text-align: center;
-      padding: 5px;
+      padding:5px;
     }
     #Eat:checked+label{
       background-color:rgb(88, 52, 52);
