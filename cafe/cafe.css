@@ -2,7 +2,7 @@
   box-sizing:border-box;
 }
 body{
-  margin: 0;
+  margin: 0px;
   padding: 0;
   font-family: inconsolata;
   height: 100%;
@@ -73,6 +73,7 @@ a{
 .cafebody{
   width: 100%;
   text-align: center;
+  padding: 0px 10px;
 }
 .container{
   max-width: 700px;
@@ -82,13 +83,15 @@ a{
   background-color: black
   ;
   color: white;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 4px;
   padding: 5px;
 }
-.container>h3{
-  margin: 85px;
+.container h3{
+  padding: 70px 0px;
+  margin-top:10px 0px;
   font-size: 18px;
+  line-height: 1.5;
 }
 p{
   text-align: left;
