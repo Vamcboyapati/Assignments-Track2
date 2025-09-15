@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>imgcontainer</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body,
+    html {
+      width: 100%;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 900px;
+      margin: 40px auto;
+      border: solid 1px black;
+
+    }
+
+    .container>.item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      text-align: center;
+      padding: 10px;
+      border-radius:200px;
+    }
+
+    img {
+      width: 200px;
+      height: 200px;
+      border-radius: 100px;
+
+    }
+
+    h2{
+      text-align: center;
+      display: inline-block;
+      padding: 2px;
+      transition: all 0.8s ease;
+    }
+
+    .container>.item:hover h2 {
+      position: absolute;
+      color:white;
+      background-color: black;
+      opacity: 0.8;
+      border-radius: 8px;
+      display: inline-block;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="item">
+      <img src="https://wallpapers.com/images/hd/dapper-prabhas-mirchi-0jph8feogcnwes7j.jpg" alt="prabhas">
+      <h2>Prabhas</h2>
+    </div>
+    <div class="item">
+      <img src="https://pbs.twimg.com/media/FsOiEuHacAcGxhS.jpg" alt="allu">
+      <h2>Allu arjun</h2>
+    </div>
+    <div class="item">
+      <img src="https://i.pinimg.com/originals/47/8b/63/478b638ed6fd928401c0b39cf05e3b4e.jpg" alt="ntr">
+      <h2>NTR</h2>
+    </div>
+    <div class="item">
+      <img src="https://w0.peakpx.com/wallpaper/846/761/HD-wallpaper-mahesh-babu-mahesh-prince-mahesh-sarkaru-vaari-paata-superstar-mahesh-babu.jpg"
+        alt="mahesh">
+      <h2>Mahesh</h2>
+    </div>
+    <div class="item"><img
+        src="https://in.bmscdn.com/iedb/artist/images/website/poster/large/pawan-kalyan-26911-19-09-2017-02-46-38.jpg"
+        alt="pawan kalyan">
+      <h2>Pspk</h2>
+    </div>
+    <div class="item"><img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSEYRF2tT6oTabEw6SRt8m_cYxIXR1io8s0Q&s" alt="nani">
+      <h2>Nani</h2>
+    </div>
+    <div class="item"><img
+        src="https://in.bmscdn.com/iedb/artist/images/website/poster/large/vijay_deverakonda_13416_27-07-2016_11-17-19.jpg"
+        alt="konda">
+      <h2>Vijay</h2>
+    </div>
+    <div class="item"><img src="https://cdn.siasat.com/wp-content/uploads/2025/08/Chiranjeevi.jpg" alt="chiru">
+      <h2>Chiru</h2>
+    </div>
+  </div>
+</body>
+
+</html>
