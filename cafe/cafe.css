@@ -3,7 +3,7 @@
 }
 body{
   margin: 0px;
-  padding: 0;
+  padding: 0px;
   font-family: inconsolata;
   height: 100%;
   background-color:#ffffff;
@@ -115,6 +115,9 @@ p{
 .item>p{
   color: grey;
 }
+.item>h3{
+  padding: 10px 0px !important;
+}
 #Eat,#Drink{
   display: none;
 }
@@ -149,8 +152,8 @@ label{
   padding-right: 10px;
 }
 label{
-  display:inline-block;
-  width: 49.38%;
+  display: inline-block;
+  width: 50%;
   text-align: center;
   padding:5px;
 }
@@ -173,6 +176,9 @@ label{
 .menu{
   box-shadow: 1px 1px 10px black;
   margin-bottom: 40px;
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
 }
 .container input{
   width:100%; 
